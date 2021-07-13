@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string name="logoutUrl">http://jsonstub.com/logout</string>
+    <string name="loginActivityPath">com.example.weteam.login.LoginActivity</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242643956852",
+    "firebase_url": "https://weteam-65215.firebaseio.com",
+    "project_id": "weteam-65215",
+    "storage_bucket": "weteam-65215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242643956852:android:6ddb196a65ac5be860cd21",
+        "android_client_info": {
+          "package_name": "com.example.weteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242643956852-qgo4l4o0fth2jg5q4j2coaq105oqpusj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weteam",
+            "certificate_hash": "829419032c2986e2c7dae0f4d36db7b76edc32fd"
+          }
+        },
+        {
+          "client_id": "242643956852-8nh45crcirt71jpcretsacqm49vf4pp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrsbW2q_j6aPVSI95r5j8IwGZhz-dmcRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242643956852-8nh45crcirt71jpcretsacqm49vf4pp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

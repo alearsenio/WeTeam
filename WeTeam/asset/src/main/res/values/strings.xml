@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">asset</string>
+    <string name="loginUrl">http://jsonstub.com/Login</string>
+    <string name="content_type">application/json</string>
+    <string name="user_Key">688d4d24-85b5-4d93-8c7d-f2c73b95340d</string>
+    <string name="project_key">67cf1cbf-9a85-4bcd-9349-6d93c3fce051</string>
+</resources>

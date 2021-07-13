@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">?themePrimary</item>
+        <item name="colorPrimaryDark">?themePrimaryDark</item>
+        <item name="colorAccent">?themeAccent</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="themePrimary">@android:color/black</item>
+        <item name="themePrimaryDark">@color/colorGrey</item>
+        <item name="themeAccent">@color/colorlightGrey</item>
+        <item name="colorControlNormal">@color/colorYellow</item>
+        <item name="themeTextColor">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorYellow</item>
+        <item name="colorControlHighlight">@color/colorYellow</item>
+        <item name="themeGroupColor">@color/colorGrey</item>
+        <item name="themeChildColor">@android:color/black</item>
+        <item name="colorButtonNormal">@color/colorYellow</item>
+        <item name="actionBarPopupTheme">@style/WhiteOptionsMenu</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="actionBarStyle">@style/BlackActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/Theme.App.Base.OverFlow</item>
+    </style>
+
+    <style name="Theme.App.BaseLight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="themePrimary">@android:color/white</item>
+        <item name="themePrimaryDark">@color/colorlightGrey</item>
+        <item name="themeAccent">@android:color/darker_gray</item>
+        <item name="colorControlNormal">@color/colorYellow</item>
+        <item name="colorControlActivated">@color/colorYellow</item>
+        <item name="colorControlHighlight">@color/colorYellow</item>
+        <item name="themeTextColor">@android:color/black</item>
+        <item name="colorButtonNormal">@color/colorYellow</item>
+        <item name="themeGroupColor">@color/colorlighterGrey</item>
+        <item name="themeChildColor">@color/colorWhite</item>
+        <item name="actionBarPopupTheme">@style/BlackOptionsMenu</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="alertDialogTheme">@style/Theme.AppCompat</item>
+        <item name="actionBarStyle">@style/WhiteActionBar</item>
+        <item name="android:actionOverflowButtonStyle">@style/Theme.App.Base.OverFlowBlack</item>
+    </style>
+
+    <style name="Theme.App.Base.OverFlow">
+        <item name="android:src">@drawable/user</item>
+        <item name="android:tint">@android:color/black</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+
+    </style>
+
+    <style name="Theme.App.Base.OverFlowBlack">
+        <item name="android:src">@drawable/user</item>
+        <item name="android:tint">@android:color/white</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <!--black actionBar theme-->
+    <style name="BlackActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@android:color/white</item>
+        <item name="titleTextStyle">@style/BlackActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="BlackActionBarTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <!--white actionBar theme-->
+    <style name="WhiteActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@android:color/black</item>
+        <item name="titleTextStyle">@style/WhiteActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="WhiteActionBarTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <!--black option menu theme-->
+    <style name="BlackOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--white option menu theme-->
+    <style name="WhiteOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.App.Base.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.SlidrActivityTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.App.Base.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.App.Base.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
